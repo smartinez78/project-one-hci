@@ -9,12 +9,18 @@
 <body>
   <main id="content">
     <h1>Hedgehog Mailing List</h1>
-    <h2>Sign-up to receive pictures and facts related to the best spiny animals around!</h2>
+    <p>
+      Sign-up to receive pictures and facts related to the best spiny animals around!
+    </p>
+    <!-- Create main sign-up form !-->
     <form id="mailing-list" action="#null" method="get">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="full-name" id="full-name" />
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
       <label for="telephone">Phone Number</label>
       <input type="tel" name="telephone" id="telephone" />
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" placeholder="email@example.com" />
+      <input type="submit" name="submit" id="submit" value="Sign Up" />
     </form>
   </main>
 </body>
