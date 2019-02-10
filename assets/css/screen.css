@@ -60,8 +60,15 @@ input[type="email"]:focus {
 }
 
 input[type="submit"] {
-  background-color: rgba(88,130,250,1);
+  background-color: rgba(255, 204, 204,1);
 }
 input[type="submit"]:disabled {
-  background-color: rgba(88,130,250,0.3);
+  background-color: rgba(255, 204, 204, 0.3);
+}
+
+/* media query for smaller viewports */
+@media all and (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
 }
