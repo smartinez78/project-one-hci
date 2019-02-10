@@ -7,3 +7,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
+  padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  color: #EEE;
+  background-color: #2A0A22;
+}
