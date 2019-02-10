@@ -63,5 +63,5 @@ input[type="submit"] {
   background-color: rgba(88,130,250,1);
 }
 input[type="submit"]:disabled {
-  background-color: rgba(88,130,250,0.2);
+  background-color: rgba(88,130,250,0.3);
 }
