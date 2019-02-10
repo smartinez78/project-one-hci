@@ -16,3 +16,14 @@ html {
   color: #EEE;
   background-color: #2A0A22;
 }
+
+h1 {
+  font-size: 1.688em; /* 27px / 16px = 1.688em */
+  line-height: 1.6296296296296296em; /* 44px / 27px = 1.6296296296296296em */
+}
+
+p {
+  font-size: 0.75em; /* 12px / 16px = 0.75em */
+  line-height: 1.125em; /* 18px / 16px = 1.125em */
+  padding-bottom: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
+}
