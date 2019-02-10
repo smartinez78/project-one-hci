@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/*-----Base Styles (element selectors; color, typography)-----*/
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
@@ -26,4 +27,18 @@ p {
   font-size: 0.75em; /* 12px / 16px = 0.75em */
   line-height: 1.125em; /* 18px / 16px = 1.125em */
   padding-bottom: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
+}
+
+/*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
+input,
+label {
+  display: block;
+  box-sizing: border-box;
+}
+
+input {
+  font-size: inherit;
+  line-height: inherit;
+  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */;
+  width: 100%;
 }
