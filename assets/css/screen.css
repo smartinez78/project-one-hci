@@ -39,7 +39,7 @@ label {
 input {
   font-size: inherit;
   line-height: inherit;
-  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */;
+  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   margin: 0;
   border: 0;
   outline: 0;
@@ -51,7 +51,7 @@ input[type="text"],
 input[type="tel"],
 input[type="email"] {
   margin-bottom: 0.75em;
-  background-color: rgba(216,206,246,1.0);
+  background-color: rgba(216,206,246,1);
 }
 input[type="text"]:focus,
 input[type="tel"]:focus,
@@ -60,8 +60,8 @@ input[type="email"]:focus {
 }
 
 input[type="submit"] {
-    background-color: rgba(88,130,250,1.0);
+  background-color: rgba(88,130,250,1);
 }
 input[type="submit"]:disabled {
-    background-color: rgba(88,130,250,0.2);
+  background-color: rgba(88,130,250,0.2);
 }
