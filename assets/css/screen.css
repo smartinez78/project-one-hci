@@ -75,4 +75,9 @@ input[type="submit"]:disabled {
     border: 2px solid #220A29; /* 2px / 16px = 0.125em */
     background-color: rgba(255, 204, 204, 0.3);
   }
+
+  p {
+    text-align: center;
+    margin-top: 0.75em;
+    }
 }
