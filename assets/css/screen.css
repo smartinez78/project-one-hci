@@ -45,10 +45,10 @@ input {
   font-size: inherit;
   line-height: inherit;
   padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
-  margin: 0;
-  border: 0;
   outline: 0;
   width: 100%;
+  margin: 0;
+  border: 0;
 }
 
 /* attribute selectors */
@@ -57,14 +57,19 @@ input[type="email"] {
   margin-bottom: 0.75em;
   background-color: rgba(216,206,246,1);
 }
+
+/* set color of input field when focused */
 input[type="text"]:focus,
 input[type="email"]:focus {
   background-color: #EEE;
 }
 
+/* set color for submit button when enabled */
 input[type="submit"] {
   background-color: rgba(255, 204, 204,1);
 }
+
+/* set color for submit button when disabled */
 input[type="submit"]:disabled {
   background-color: rgba(255, 204, 204, 0.3);
 }
@@ -85,7 +90,12 @@ input[type="submit"]:disabled {
   }
 
   img {
-      padding-bottom: 1em; /* 16px / 16px = 1em; */
+    padding-bottom: 1em; /* 16px / 16px = 1em; */
+  }
+
+  .height-gallery li {
+    width: 15%;
+    height: 15%;
   }
 
   .hedgie-gallery {
@@ -93,13 +103,9 @@ input[type="submit"]:disabled {
     flex-flow: column;
     justify-content: space-evenly;
   }
-
-  .height-gallery li {
-    width: 15%;
-    height: 15%;
-  }
 }
 
+/* media query for larger viewports */
 @media all and (min-width: 501px) {
   .hedgie-gallery li {
     width: 50%;
