@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -11,12 +12,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*-----Base Styles (element selectors; color, typography)-----*/
 /*-----Paletton URL: http://paletton.com/#uid=54v0u0kiCFn8GVde7NVmtwSqXtg-----*/
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   color: #EEE;
-  background-color: #9E1993;
+  background-color: #840A7A;
 }
 
 h1 {
