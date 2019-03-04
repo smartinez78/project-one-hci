@@ -84,14 +84,14 @@ input[type="submit"]:disabled {
 }
 
 .height-gallery li {
-    width: 15%;
-    height: 15%;
+  width: 15%;
+  height: 15%;
 }
 
 .hedgie-gallery {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
 }
 
 /* media query for larger viewports */
