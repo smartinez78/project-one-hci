@@ -12,6 +12,28 @@
   var mailing_list = document.querySelector('#mailing-list');
   var email_input = document.querySelector('#email');
 
+  // check if conditions are satisfied for
+  // passed value
+  function equal(value,condition) {
+    // if equal
+    return value === condition;
+  }
+
+  function validate(value,check,condition) {
+    // pass to equal function
+    if (equal(typeof(check.test),'function')) {
+      // regular expression
+      return check.test(value);
+    }
+    else if (equal(typeof(check),'function')) {
+      // comparison function
+      return check(value,condition);
+    }
+    else {
+      return false;
+    }
+  }
+
   // function to check email validity
   function check_email(value) {
     var email = value;
@@ -26,6 +48,7 @@
 
     // listen for keyup anywhere on form
     mailing_list.addEventListener('keyup',function() {
+      // grab value of email_input and store in email_value var
       var email_value = email_input.value;
       // check the potential validity of email
       if (check_email(email_value)) {
