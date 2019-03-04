@@ -15,23 +15,31 @@ html {
   line-height: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   color: #EEE;
-  background-color: #220A29;
+  background-color: #640A64;
 }
 
 h1 {
   font-size: 1.688em; /* 27px / 16px = 1.688em */
   line-height: 1.6296296296296296em; /* 44px / 27px = 1.6296296296296296em */
+  text-align: center;
+  display: block;
+  border-radius: 0.625em; /* 10px / 16px = 0.625em */
+  border: 2px solid #220A29; /* 2px / 16px = 0.125em */
+  background-color: rgba(238, 151, 177, 1);
 }
 
 p {
   font-size: 0.875em; /* 14px / 16px = 0.875em */
   line-height: 1.125em; /* 18px / 16px = 1.125em */
   padding-bottom: 1em; /* 16px / 16 px = 1em */
+  text-align: center;
+  margin-top: 0.75em;
 }
 
 img {
   display: block;
   max-width: 100%;
+  padding-bottom: 1em; /* 16px / 16px = 1em; */
 }
 
 /*-----Module/Modular (class or descendent selectors; repeating specific styles)-----*/
@@ -55,7 +63,7 @@ input {
 input[type="text"],
 input[type="email"] {
   margin-bottom: 0.75em;
-  background-color: rgba(216,206,246,1);
+  background-color: rgba(165, 135, 204, 1);
 }
 
 /* set color of input field when focused */
@@ -66,43 +74,23 @@ input[type="email"]:focus {
 
 /* set color for submit button when enabled */
 input[type="submit"] {
-  background-color: rgba(255, 204, 204,1);
+  background-color: rgba(238, 151, 177, 1);
 }
 
 /* set color for submit button when disabled */
 input[type="submit"]:disabled {
-  background-color: rgba(255, 204, 204, 0.3);
+  background-color: rgba(174, 33, 76, 0.3);
 }
 
-/* media query for smaller viewports */
-@media all and (max-width: 500px) {
-  h1 {
-    text-align: center;
-    display: block;
-    border-radius: 0.625em; /* 10px / 16px = 0.625em */
-    border: 2px solid #220A29; /* 2px / 16px = 0.125em */
-    background-color: rgba(255, 204, 204, 0.3);
-  }
-
-  p {
-    text-align: center;
-    margin-top: 0.75em;
-  }
-
-  img {
-    padding-bottom: 1em; /* 16px / 16px = 1em; */
-  }
-
-  .height-gallery li {
+.height-gallery li {
     width: 15%;
     height: 15%;
-  }
+}
 
-  .hedgie-gallery {
+.hedgie-gallery {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-  }
 }
 
 /* media query for larger viewports */
