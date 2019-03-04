@@ -9,13 +9,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /*-----Base Styles (element selectors; color, typography)-----*/
+/*-----Paletton URL: http://paletton.com/#uid=54v0u0kiCFn8GVde7NVmtwSqXtg-----*/
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.2222222222222em; /* 22px / 18 px = 1.2222222222222em */
   padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   color: #EEE;
-  background-color: #640A64;
+  background-color: #9E1993;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
   display: block;
   border-radius: 0.625em; /* 10px / 16px = 0.625em */
   border: 2px solid #220A29; /* 2px / 16px = 0.125em */
-  background-color: rgba(238, 151, 177, 1);
+  background-color: rgba(142, 139, 224, 1);
 }
 
 p {
@@ -63,7 +64,7 @@ input {
 input[type="text"],
 input[type="email"] {
   margin-bottom: 0.75em;
-  background-color: rgba(165, 135, 204, 1);
+  background-color: rgba(208, 180, 240, 1);
 }
 
 /* set color of input field when focused */
@@ -74,12 +75,12 @@ input[type="email"]:focus {
 
 /* set color for submit button when enabled */
 input[type="submit"] {
-  background-color: rgba(238, 151, 177, 1);
+  background-color: rgba(142, 139, 224, 1);
 }
 
 /* set color for submit button when disabled */
 input[type="submit"]:disabled {
-  background-color: rgba(174, 33, 76, 0.3);
+  background-color: rgba(49, 45, 163, 0.3);
 }
 
 .height-gallery li {
